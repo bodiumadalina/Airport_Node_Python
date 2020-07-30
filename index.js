@@ -1,6 +1,7 @@
 const express = require('express')
 const { spawn } = require('child_process')
 const app = express()
+var path = require('path');
 const port = 3000
 var path="example/DSC_0395.JPG"
 app.get('/', (req, res) => {
